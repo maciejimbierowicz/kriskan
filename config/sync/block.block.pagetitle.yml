@@ -1,0 +1,20 @@
+uuid: 165843b1-562b-4192-9193-c33fdf2afce8
+langcode: en
+status: false
+dependencies:
+  theme:
+    - droopler_theme
+_core:
+  default_config_hash: AsvE6LJsEac4zJ8z4pqLKTy7rOLyLZiELndjheYNhCg
+id: pagetitle
+theme: droopler_theme
+region: content
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

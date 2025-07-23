@@ -1,0 +1,24 @@
+uuid: 8e0f01d3-2845-48ad-a3bd-17f2ff5b4b88
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.reset_button
+_core:
+  default_config_hash: 6hNXlO3dowCiTn-CxHTqZdvvOlKMMJ2GA1ass4ynxrs
+id: block_content.reset_button.status
+field_name: status
+entity_type: block_content
+bundle: reset_button
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

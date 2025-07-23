@@ -1,0 +1,25 @@
+uuid: 8f5e0cb0-7a7d-4636-916b-36b6d29c5381
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_padding_bottom
+    - paragraphs.paragraphs_type.d_p_side_image
+  module:
+    - options
+_core:
+  default_config_hash: 5GyrKy6Dj5-DrpzAEMK6YUGEZv222Yy7n2eTQiiHdxY
+id: paragraph.d_p_side_image.field_padding_bottom
+field_name: field_padding_bottom
+entity_type: paragraph
+bundle: d_p_side_image
+label: 'Padding Bottom'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: padding_bottom_medium
+default_value_callback: ''
+settings: {  }
+field_type: list_string

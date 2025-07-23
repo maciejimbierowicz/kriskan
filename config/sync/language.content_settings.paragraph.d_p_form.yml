@@ -1,0 +1,20 @@
+uuid: 29eaeb2e-4b3f-46f2-87c2-47314fb01783
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_form
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: WdRenjh9bEUzZgVE3AKh2ayA6-Ymin_9bRYyKC7RyD8
+id: paragraph.d_p_form
+target_entity_type_id: paragraph
+target_bundle: d_p_form
+default_langcode: site_default
+language_alterable: true

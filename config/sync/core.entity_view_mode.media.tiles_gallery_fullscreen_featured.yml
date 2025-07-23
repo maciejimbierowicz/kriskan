@@ -1,0 +1,13 @@
+uuid: 8e2cf362-95c6-47c5-a832-f612bae51169
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 9FJOEyHBXUeh5xxfeH6MiDzbQYewjBOqytKEB-_xkX4
+id: media.tiles_gallery_fullscreen_featured
+label: 'Tiles gallery fullscreen featured'
+description: ''
+targetEntityType: media
+cache: true

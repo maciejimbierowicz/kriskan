@@ -1,0 +1,24 @@
+uuid: 3429c1ac-0c9c-41bc-937b-ee3eac4abf65
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_blog_image
+_core:
+  default_config_hash: uXuiUvFLXoHkpR9j_UlpBqOwMbj2sR8k6nDPgkZRuBY
+id: paragraph.d_p_blog_image.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_blog_image
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

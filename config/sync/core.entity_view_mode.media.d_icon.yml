@@ -1,0 +1,13 @@
+uuid: 1801b0fb-d54c-4a55-86a7-d472a639a95e
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: EDxD5PmXEQ87OHy_RxLRzlZb3NsF4jRC7An87ce6-Bo
+id: media.d_icon
+label: Icon
+description: ''
+targetEntityType: media
+cache: true

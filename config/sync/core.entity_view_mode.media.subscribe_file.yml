@@ -1,0 +1,13 @@
+uuid: 75f56c1c-c2a5-41ed-9747-2b96a9cf559d
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: b1fkJpz6YucTWugFlZobMGUw_LSulbH1mM1tKyCTKsg
+id: media.subscribe_file
+label: 'Subscribe file'
+description: ''
+targetEntityType: media
+cache: true

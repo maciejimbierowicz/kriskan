@@ -1,0 +1,24 @@
+uuid: 6c492687-c2ae-4c16-9875-56e5c05d0ef6
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_group_of_counters
+_core:
+  default_config_hash: UbiSqYBv8cIBDWuN9RRBF83f2QtNN7r2lLyP5AFdC68
+id: paragraph.d_p_group_of_counters.status
+field_name: status
+entity_type: paragraph
+bundle: d_p_group_of_counters
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

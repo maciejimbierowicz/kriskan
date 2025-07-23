@@ -1,0 +1,13 @@
+uuid: 6caae0fa-1034-481e-b6af-f7e95fe00ecf
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: quqHv0bsv_6ouXXH2HvcqpOc5V0Z-CbPdHv00qjO2XI
+id: media.d_product_image
+label: 'Product image'
+description: ''
+targetEntityType: media
+cache: true

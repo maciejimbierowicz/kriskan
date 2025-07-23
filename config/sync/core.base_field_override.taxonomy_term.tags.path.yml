@@ -1,0 +1,22 @@
+uuid: d3d30fc1-6dde-4eec-987e-04704ec9e386
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+  module:
+    - path
+_core:
+  default_config_hash: Qbn53-C8ZRSUQv_zzM6njoV6Qr5VxKG3UyqI-mgDM_o
+id: taxonomy_term.tags.path
+field_name: path
+entity_type: taxonomy_term
+bundle: tags
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

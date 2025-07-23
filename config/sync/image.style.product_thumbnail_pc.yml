@@ -1,0 +1,17 @@
+uuid: 68f22d27-fbf9-4b93-9f74-191df9b33627
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rdJ6HpzHsAlrsKddMWsp6_lnsq9UBDsx16Tu1adIOnE
+name: product_thumbnail_pc
+label: 'Product thumbnail (479×286)'
+effects:
+  23e4a200-0cdb-4277-8995-b13ec7d5dfce:
+    uuid: 23e4a200-0cdb-4277-8995-b13ec7d5dfce
+    id: image_scale
+    weight: 2
+    data:
+      width: 479
+      height: 286
+      upscale: false

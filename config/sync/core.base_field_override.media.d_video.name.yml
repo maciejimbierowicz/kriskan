@@ -1,0 +1,22 @@
+uuid: 8dd38b0d-a200-47d7-bd37-068c12f4398a
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_video
+_core:
+  default_config_hash: 3afewgLui9TzV4AMcE0tJxjsElW3fTiY2HKch9o9MxU
+id: media.d_video.name
+field_name: name
+entity_type: media
+bundle: d_video
+label: Name
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

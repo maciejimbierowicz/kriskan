@@ -1,0 +1,20 @@
+uuid: f74bff89-02d0-411d-b8c3-6d73e5956e36
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.d_paragraph_block
+_core:
+  default_config_hash: ImvRuYbCPGiu0vsKqvoiOmFwa9VF0D4MkAKehW88CUU
+id: block_content.d_paragraph_block.info
+field_name: info
+entity_type: block_content
+bundle: d_paragraph_block
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

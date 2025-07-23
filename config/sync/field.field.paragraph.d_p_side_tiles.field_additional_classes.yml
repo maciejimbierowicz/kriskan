@@ -1,0 +1,21 @@
+uuid: 4fa2ed38-b2aa-4b1f-acdb-42eeb742f84b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_additional_classes
+    - paragraphs.paragraphs_type.d_p_side_tiles
+_core:
+  default_config_hash: XEdxxtd12N1PbEXnde29iQrcgdG7GERfSCyp-XfZXjk
+id: paragraph.d_p_side_tiles.field_additional_classes
+field_name: field_additional_classes
+entity_type: paragraph
+bundle: d_p_side_tiles
+label: 'Additional classes'
+description: 'Please separate multiple classes by spaces.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

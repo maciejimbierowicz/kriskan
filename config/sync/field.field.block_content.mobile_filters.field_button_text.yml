@@ -1,0 +1,23 @@
+uuid: 037ecb03-1f7e-45a9-82a1-c9d032d417f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mobile_filters
+    - field.storage.block_content.field_button_text
+_core:
+  default_config_hash: _IQQMArYOVPFFv0TdoK5O58QXIBOAlqrS_886xliw_A
+id: block_content.mobile_filters.field_button_text
+field_name: field_button_text
+entity_type: block_content
+bundle: mobile_filters
+label: 'Button text'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: Filters
+default_value_callback: ''
+settings: {  }
+field_type: string

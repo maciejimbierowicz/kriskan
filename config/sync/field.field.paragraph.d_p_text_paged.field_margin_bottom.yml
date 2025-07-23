@@ -1,0 +1,25 @@
+uuid: f6b39163-9792-439a-b3ad-3d6d0d60bda1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_margin_bottom
+    - paragraphs.paragraphs_type.d_p_text_paged
+  module:
+    - options
+_core:
+  default_config_hash: fAzq402XWU4OuhVahtiPYW0Pu56Tu24GwARYGMEubYQ
+id: paragraph.d_p_text_paged.field_margin_bottom
+field_name: field_margin_bottom
+entity_type: paragraph
+bundle: d_p_text_paged
+label: 'Margin bottom'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: margin_bottom_none
+default_value_callback: ''
+settings: {  }
+field_type: list_string

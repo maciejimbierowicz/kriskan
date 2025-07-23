@@ -1,0 +1,22 @@
+uuid: d912e902-42e8-448f-b9bd-5b59e08c0ac2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+  module:
+    - metatag
+_core:
+  default_config_hash: 75OBmysHCmP6W5lncPng9B1AVHox9JP1e8Fc491eP28
+id: taxonomy_term.tags.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: tags
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The computed meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag_computed

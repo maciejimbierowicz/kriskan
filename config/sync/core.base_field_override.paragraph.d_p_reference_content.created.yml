@@ -1,0 +1,20 @@
+uuid: 8fa75188-78b5-42e2-b58d-3690fe236f72
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_reference_content
+_core:
+  default_config_hash: JC-fHkpgMdoR4eubvJirpin7OAvhUjzQlzP0fAhHAiU
+id: paragraph.d_p_reference_content.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_reference_content
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

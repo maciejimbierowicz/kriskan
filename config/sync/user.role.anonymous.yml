@@ -1,0 +1,18 @@
+uuid: c91b28c2-f16f-4f90-acbd-caff36e5f0a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - search
+    - system
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'search content'
+  - 'view media'

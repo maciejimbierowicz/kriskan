@@ -1,0 +1,26 @@
+uuid: c7007eb0-dbca-4e58-ab9c-6b17949fa81d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block
+    - paragraphs.paragraphs_type.d_p_block
+  module:
+    - block_field
+_core:
+  default_config_hash: w1W_nT20AD-Ns2Sba-baCOi5xMRSusoh-wbp-l2qsU4
+id: paragraph.d_p_block.field_block
+field_name: field_block
+entity_type: paragraph
+bundle: d_p_block
+label: Block
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  selection: blocks
+  selection_settings:
+    plugin_ids: {  }
+field_type: block_field

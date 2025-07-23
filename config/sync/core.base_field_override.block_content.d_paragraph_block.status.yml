@@ -1,0 +1,24 @@
+uuid: ccb08487-4ca1-4c27-9d06-2b28af5057dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.d_paragraph_block
+_core:
+  default_config_hash: 7kQiQJCZnAgQYNOENGRGnE1pVgEHTdg7kymmxVECr3w
+id: block_content.d_paragraph_block.status
+field_name: status
+entity_type: block_content
+bundle: d_paragraph_block
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

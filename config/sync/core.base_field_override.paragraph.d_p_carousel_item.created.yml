@@ -1,0 +1,20 @@
+uuid: 0ea09da3-e491-4b54-ac74-95ab44983719
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_carousel_item
+_core:
+  default_config_hash: '-Rckd66NZgrZ8jqMG58s3ezwKRFZPYj--4U-tKolmnQ'
+id: paragraph.d_p_carousel_item.created
+field_name: created
+entity_type: paragraph
+bundle: d_p_carousel_item
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,20 @@
+uuid: 193e3696-ab28-4c7b-bb3c-9f3477add73d
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_side_embed
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: x8PkQ0qEyIwmmh-ZF4fvq-jwoXwJ4nDiWBD3DQTcwIE
+id: paragraph.d_p_side_embed
+target_entity_type_id: paragraph
+target_bundle: d_p_side_embed
+default_langcode: site_default
+language_alterable: true

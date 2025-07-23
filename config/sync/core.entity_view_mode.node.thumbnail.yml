@@ -1,0 +1,13 @@
+uuid: a6c8923f-9210-4127-8d7e-e1b6ff8ea62f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: sivtFQ9UE94oSpDgzwJxOWIOEETlkb2ynERMK50hxbM
+id: node.thumbnail
+label: Thumbnail
+description: ''
+targetEntityType: node
+cache: true

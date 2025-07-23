@@ -1,0 +1,22 @@
+uuid: aa9de7cc-9fe5-4073-a762-7d7f13aa68af
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - webform
+_core:
+  default_config_hash: 9qgS6-Aod7UK0ZGNRKVumFoKW3CiPserHqlatUSsNA0
+id: paragraph.field_d_webform
+field_name: field_d_webform
+entity_type: paragraph
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

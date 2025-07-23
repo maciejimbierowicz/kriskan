@@ -1,0 +1,32 @@
+uuid: f61c700e-9088-4baa-b341-916bf70eb4d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: zRgtfIp2qoWZULK7JZeYCcZU74lZmIPMNi7eoEIS81k
+id: paragraph.field_form_layout
+field_name: field_form_layout
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left
+      label: Left
+    -
+      value: right
+      label: Right
+    -
+      value: bottom
+      label: Bottom
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

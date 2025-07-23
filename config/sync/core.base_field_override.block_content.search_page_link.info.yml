@@ -1,0 +1,20 @@
+uuid: 651d4948-e269-4975-9c78-59fbc756889a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.search_page_link
+_core:
+  default_config_hash: ofbGbVOjywWUlVTUN8koRHAsmrSfP8NnY2O4INxwlFw
+id: block_content.search_page_link.info
+field_name: info
+entity_type: block_content
+bundle: search_page_link
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

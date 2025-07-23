@@ -1,0 +1,25 @@
+uuid: 77d65535-99fb-48e6-9599-9e97f349329d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading_type
+    - paragraphs.paragraphs_type.d_p_side_by_side
+  module:
+    - options
+_core:
+  default_config_hash: fhuaAObdR1bX1Q8TGwS17UAUPopJ37Er5H8Tlt6UiBw
+id: paragraph.d_p_side_by_side.field_heading_type
+field_name: field_heading_type
+entity_type: paragraph
+bundle: d_p_side_by_side
+label: 'Heading type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: h2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

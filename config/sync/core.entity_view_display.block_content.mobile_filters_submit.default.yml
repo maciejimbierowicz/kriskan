@@ -1,0 +1,20 @@
+uuid: 89f38eb8-3a77-4b1b-9b4b-ce1d006c892e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mobile_filters_submit
+    - field.field.block_content.mobile_filters_submit.field_button_class
+    - field.field.block_content.mobile_filters_submit.field_button_text
+_core:
+  default_config_hash: rnUTvxLWRnQtpckh2ywkSnTmnpamWX6oMEhS76LBiJs
+id: block_content.mobile_filters_submit.default
+targetEntityType: block_content
+bundle: mobile_filters_submit
+mode: default
+content: {  }
+hidden:
+  field_button_class: true
+  field_button_text: true
+  langcode: true
+  search_api_excerpt: true

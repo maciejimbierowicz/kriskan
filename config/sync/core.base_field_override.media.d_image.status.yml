@@ -1,0 +1,24 @@
+uuid: a8b24aca-8df3-44cb-85a9-fa9f66806b68
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.d_image
+_core:
+  default_config_hash: hgPpxjlAAzyr57gviTSq-OTRK1ttJrTdxsqzIMCZSME
+id: media.d_image.status
+field_name: status
+entity_type: media
+bundle: d_image
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

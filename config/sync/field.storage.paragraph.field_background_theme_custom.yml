@@ -1,0 +1,22 @@
+uuid: 85e63e2e-dad7-4d53-ae39-a5667d7bfe9e
+langcode: en
+status: true
+dependencies:
+  module:
+    - color_field
+    - paragraphs
+_core:
+  default_config_hash: LCmi2oVXTPg4WtZRwlef4WMNNMtmZZCHVZ62TUj51ZY
+id: paragraph.field_background_theme_custom
+field_name: field_background_theme_custom
+entity_type: paragraph
+type: color_field_type
+settings:
+  format: '#HEXHEX'
+module: color_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

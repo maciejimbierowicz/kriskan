@@ -1,0 +1,11 @@
+uuid: e191535e-cf56-406c-80ae-aadde03ddf8d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MtO5Z2NCpWRZuXoLsDboUMPBd0vAUZ8-0AQlR6DCSDg
+name: 'Blog category'
+vid: blog_posts_category
+description: 'Taxonomy of blog posts category '
+weight: 0
+new_revision: false

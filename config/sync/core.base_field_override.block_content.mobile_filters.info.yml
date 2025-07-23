@@ -1,0 +1,20 @@
+uuid: 52ae22e9-10e3-4fb3-a9fb-a8d67de99c79
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mobile_filters
+_core:
+  default_config_hash: 6P5yeOfSc_xMm5u1u5uAMrayhJpAO2tbvRlz6NOg2Sw
+id: block_content.mobile_filters.info
+field_name: info
+entity_type: block_content
+bundle: mobile_filters
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

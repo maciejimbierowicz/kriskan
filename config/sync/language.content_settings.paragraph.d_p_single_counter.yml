@@ -1,0 +1,20 @@
+uuid: 22fea742-4139-41bb-9381-1ffc0b049f2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d_p_single_counter
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: icOHgbSdTdj8mlYoF_jxxCDXQpuFnUUnJgBu00go3oA
+id: paragraph.d_p_single_counter
+target_entity_type_id: paragraph
+target_bundle: d_p_single_counter
+default_langcode: site_default
+language_alterable: true

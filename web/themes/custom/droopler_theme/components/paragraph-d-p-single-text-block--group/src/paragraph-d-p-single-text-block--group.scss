@@ -18,6 +18,17 @@
 
   &--in-group {
     position: relative;
+    width: 100%;
+    max-width: 400px;
+    min-height: 220px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 8px 24px rgba(125, 125, 125, 0.15);
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #eee;
 
     .heading {
       @include heading(5);

@@ -18,7 +18,7 @@
           padding: 0.5rem;
           color: var(--header-search-page-link-color);
           font-weight: 500;
-          font-size: $font-size-sm;
+          font-size: 1.2rem;
 
           &:hover {
             color: var(--header-search-page-link-color-hover);
@@ -60,6 +60,7 @@
           line-height: 2.5rem;
           font-weight: 600;
           color: var(--navigation-desktop-bottom-menu-link-color);
+          font-size: 1.2rem;
         }
 
         &__element {
@@ -81,6 +82,7 @@
           .menu-item {
             &__link {
               color: var(--navigation-desktop-bottom-menu-link-color-hover);
+              font-size: 1.2rem;
             }
           }
 
@@ -110,6 +112,7 @@
           white-space: nowrap;
           color: var(--navigation-desktop-bottom-submenu-link-color);
           font-weight: 600;
+          font-size: 1.2rem;
 
           &:hover {
             color: var(--navigation-desktop-bottom-submenu-link-color-hover);

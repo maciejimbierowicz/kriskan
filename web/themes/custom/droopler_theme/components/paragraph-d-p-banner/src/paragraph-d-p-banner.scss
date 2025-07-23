@@ -1,7 +1,7 @@
 @import "../../../src/scss/init";
 
 :root {
-  --banner-content-text-alignment: left;
+  --banner-content-text-alignment: center;
 }
 
 .d-p-banner {
@@ -33,6 +33,10 @@
 
   &__content {
     z-index: 1;
+
+    &-wrapper.row {
+      justify-content: center;
+    }
   }
 
   &__content-overlay {
@@ -50,6 +54,10 @@
 
     text-align: var(--banner-content-text-alignment);
 
+    h1 {
+      font-size: 3.8rem;
+    }
+
     @include media-breakpoint-up(lg) {
       &.col-12 {
         max-width: 768px;
@@ -59,6 +67,7 @@
 
     .divider {
       display: block;
+      margin: 1rem auto;
     }
 
     .media-icon {
@@ -72,6 +81,7 @@
 
     .subtitle {
       margin-top: var(--content-spacer-xs);
+      opacity: 0.8;
     }
 
     .cta-links {

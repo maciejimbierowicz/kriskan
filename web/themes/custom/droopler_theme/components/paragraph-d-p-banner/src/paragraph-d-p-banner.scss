@@ -37,6 +37,9 @@
 
   &__background {
     @include filling-absolute;
+    opacity: 0;
+    animation: fadeInBannerBg 1.2s ease forwards;
+    animation-delay: 0.2s;
   }
 
   &__background-media {
@@ -104,5 +107,11 @@
     .cta-links {
       margin-top: var(--content-spacer-xl);
     }
+  }
+}
+
+@keyframes fadeInBannerBg {
+  to {
+    opacity: 1;
   }
 }

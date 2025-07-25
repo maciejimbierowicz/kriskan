@@ -24,6 +24,7 @@ dependencies:
     - block_content
     - content_translation
     - contextual
+    - eu_cookie_compliance
     - filter
     - frontend_editing
     - layout_builder
@@ -126,6 +127,7 @@ permissions:
   - 'delete terms in blog_posts_category'
   - 'delete terms in d_product_categories'
   - 'delete terms in tags'
+  - 'display eu cookie compliance popup'
   - 'edit any blog_post content'
   - 'edit any content_block block content'
   - 'edit any content_page content'

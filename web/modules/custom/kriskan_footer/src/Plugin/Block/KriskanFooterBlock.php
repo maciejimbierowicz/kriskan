@@ -30,7 +30,7 @@ class KriskanFooterBlock extends BlockBase {
         'instagram_url' => 'https://instagram.com/kris_kan_gniezno',
         'links' => [
           [
-            'url' => 'https://kris-kan.pl/polityka-prywatnosci',
+            'url' => 'https://kris-kan.gniezno.pl/polityka-prywatnosci',
             'label' => 'Polityka Prywatności',
           ],
           [

@@ -19,7 +19,7 @@
   &--in-group {
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: 320px;
     min-height: 220px;
     border-radius: 1rem;
     box-sizing: border-box;
@@ -29,6 +29,10 @@
     padding: 1rem;
     background: #fff;
     border: 1px solid #eee;
+
+    @include media-breakpoint-up(md) {
+      max-width: 400px;
+    }
 
     .heading {
       @include heading(5);
@@ -124,25 +128,25 @@
   }
 
   &__content {
+    display: grid;
+    grid-template-rows: auto min-content min-content 1fr min-content;
+    height: 100%;
     position: relative;
     z-index: 1;
-    display: grid;
-    height: 100%;
-    grid-template-rows: auto min-content min-content 1fr min-content;
   }
 
   .media-icon {
-    margin-bottom: var(--content-spacer-s);
     grid-row: 1;
+    margin-bottom: var(--content-spacer-s);
   }
 
   .heading {
     grid-row: 2;
 
     @include media-breakpoint-up(md) {
+      line-height: 2rem;
       padding-top: 0.625rem;
       padding-bottom: 0.625rem;
-      line-height: 2rem;
     }
   }
 

@@ -96,7 +96,11 @@
 
     .heading {
       margin-top: var(--content-spacer-s);
-      font-size: 5rem;
+      font-size: 3.5rem;
+
+      @include media-breakpoint-up(md) {
+        font-size: 5rem;
+      }
     }
 
     .subtitle {

@@ -15,6 +15,11 @@
       top: 0;
       left: 0;
     }
+
+    @include media-breakpoint-down(md) {
+      height: 250px;
+      min-height: 250px;
+    }
   }
 
   .right {

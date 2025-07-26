@@ -55,6 +55,13 @@ $media-min-height: 30vh;
       @include media-breakpoint-up(sm) {
         width: 50vw;
       }
+
+      @include media-breakpoint-down(sm) {
+        width: 80vw;
+        max-width: 300px;
+        height: auto;
+        min-height: 200px;
+      }
     }
 
     img {

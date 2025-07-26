@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for KRIS-KAN Footer module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function kriskan_footer_theme() {
+  return [
+    'kriskan_footer_block' => [
+      'variables' => [
+        'content' => NULL,
+      ],
+    ],
+  ];
+} 

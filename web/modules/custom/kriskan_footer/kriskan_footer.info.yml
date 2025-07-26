@@ -1,0 +1,7 @@
+name: 'KRIS-KAN Footer'
+type: module
+description: 'Custom footer block for KRIS-KAN website'
+package: Custom
+core_version_requirement: ^9 || ^10 || ^11
+dependencies:
+  - drupal:block 

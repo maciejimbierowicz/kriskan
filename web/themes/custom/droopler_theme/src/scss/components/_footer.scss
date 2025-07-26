@@ -1,0 +1,98 @@
+// KRIS-KAN Footer Custom Styles
+.footer-custom {
+  color: #fff;
+  
+  // Białe napisy i ikonki
+  strong {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  span {
+    color: #fff;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    
+    &:hover {
+      color: #b0c4ff;
+      text-decoration: none;
+    }
+  }
+  
+  // Ikony Font Awesome
+  .fa, .fab {
+    color: #fff;
+  }
+  
+  // Wyśrodkowanie całego footer na stronie
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  // Grid system dla 3 kolumn z width 100%
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    align-items: start;
+    justify-items: stretch;
+  }
+  
+  // Kolumny z lepszym zarządzaniem tekstem
+  .col-md-3 {
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    margin: 0;
+    
+    // Zapobieganie łamaniu słów w dziwnych miejscach
+    strong {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    
+    span {
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    
+    // Telefon w jednej linii
+    span:has(.fa-phone) {
+      white-space: nowrap;
+    }
+    
+    // Email w jednej linii
+    span:has(.fa-envelope) {
+      white-space: nowrap;
+    }
+  }
+  
+  // Responsywność
+  @media (max-width: 767.98px) {
+    .container {
+      padding: 0 1rem;
+    }
+    
+    .row {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    
+    .col-md-3 {
+      text-align: center;
+      width: 100%;
+      
+      span {
+        white-space: normal;
+      }
+    }
+  }
+} 

@@ -41,3 +41,7 @@ drush-backups
 /web/*.php
 /web/web.config
 /web/robots.txt
+
+# Ignore Drupal default configuration files that cause permission issues
+/web/sites/default/default.services.yml
+/web/sites/default/default.settings.php

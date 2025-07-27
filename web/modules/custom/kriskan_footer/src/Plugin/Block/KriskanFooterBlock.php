@@ -26,7 +26,7 @@ class KriskanFooterBlock extends BlockBase {
         'description' => 'Twoi specjaliści od instalacji wodno-kanalizacyjnych. Zaufaj profesjonalistom.',
         'phone' => '+48 572 855 440',
         'email' => 'kriskan.gniezno@gmail.com',
-        'facebook_url' => 'https://www.facebook.com/people/Kris-Kan-us%C5%82ugi-wodno-kanalizacyjne/61574998886416/',
+        'facebook_url' => 'https://www.facebook.com/profile.php?id=61574998886416',
         'instagram_url' => 'https://instagram.com/kris_kan_gniezno',
         'links' => [
           [

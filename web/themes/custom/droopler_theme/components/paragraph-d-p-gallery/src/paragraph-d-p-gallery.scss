@@ -19,6 +19,16 @@
     display: grid;
     grid-gap: var(--content-spacer-l) var(--content-spacer-l);
 
+    img {
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+    
     @include media-breakpoint-up(xs) {
       grid-template-columns: repeat(2, 1fr);
     }
